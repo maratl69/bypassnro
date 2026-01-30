@@ -36,8 +36,8 @@
 	<settings pass="generalize"></settings>
 	<settings pass="specialize">
 		<component name="Microsoft-Windows-Shell-Setup" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
-			<ComputerName>ROG-GL703GM</ComputerName>
-			<ProductKey>R6N93-GBY24-V9V7Q-62HKD-8K8VF</ProductKey>
+			<ComputerName>XXXXXXXXX</ComputerName>
+			<ProductKey>XXXXX-XXXXX-XXXXX-XXXXX-XXXXX</ProductKey>
 			<TimeZone>W. Europe Standard Time</TimeZone>
 		</component>
 		<component name="Microsoft-Windows-Deployment" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
@@ -72,22 +72,22 @@
 			<UserAccounts>
 				<LocalAccounts>
 					<LocalAccount wcm:action="add">
-						<Name>Martino</Name>
+						<Name>XXXXXX</Name>
 						<DisplayName></DisplayName>
 						<Group>Administrators</Group>
 						<Password>
-							<Value>xerow</Value>
+							<Value>XXXXXX</Value>
 							<PlainText>true</PlainText>
 						</Password>
 					</LocalAccount>
 				</LocalAccounts>
 			</UserAccounts>
 			<AutoLogon>
-				<Username>Martino</Username>
+				<Username>XXXXXX</Username>
 				<Enabled>true</Enabled>
 				<LogonCount>1</LogonCount>
 				<Password>
-					<Value>xerow</Value>
+					<Value>XXXXXX</Value>
 					<PlainText>true</PlainText>
 				</Password>
 			</AutoLogon>
@@ -553,4 +553,5 @@ $scripts = @(
 } *&gt;&amp;1 | Out-String -Width 1KB -Stream &gt;&gt; "C:\Windows\Setup\Scripts\FirstLogon.log";
 		</File>
 	</Extensions>
+
 </unattend>
